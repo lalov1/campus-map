@@ -724,7 +724,7 @@ var resData = {
             },
             "properties": {
                 "id": "B16",
-                "name": "Belmont Residence Hall (BHR)",
+                "name": "Belmont Residence Hall (BRH)",
                 "popupContent": "Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
                 "imageUrl": "img/BelmontResidenceHall.png",
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
@@ -924,7 +924,7 @@ var hotelData = {
             },
             "properties": {
                 "id": "C25",
-                "name": "Marriott Hotel",
+                "name": "Courtyard by Marriott",
                 "popupContent": "template Content",
                 "imageUrl": "img/template.png",
                 "linkUrl": "http://www.marriott.com/hotels/travel/pubcy-courtyard-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
@@ -946,24 +946,6 @@ var hotelData = {
                 "popupContent": "template Content",
                 "imageUrl": "img/template.png",
                 "linkUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pueblo/pbchi/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-USA-_-PBCHI"
-            }
-        }
-        ,
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.30971,
-                    -104.61662
-                ]
-            },
-            "properties": {
-                "id": "C27",
-                "name": "Clarion Inn",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
-                "linkUrl": "https://www.choicehotels.com/colorado/pueblo/clarion-hotels/co233?source=gyxt"
             }
         }
         ,
