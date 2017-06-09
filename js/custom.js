@@ -34,7 +34,7 @@ $(document).ready(function () {
     var adminBuildings = new L.layerGroup(); // Buildings will be added as markers are added -- Admin Buildings
     var residenceBuildings = new L.layerGroup(); // Buildings will be added as markers are added -- Residence Buildings
     var sportsFields = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
-    var resturaunts = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
+    var restaurants = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
     var hotels = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
     var attractions = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
         fullscreenControl: true,
         scrollWheelZoom: false,
         control: home,
-        layers: [streets, adminBuildings, residenceBuildings, sportsFields, resturaunts, attractions, hotels]
+        layers: [streets, adminBuildings, residenceBuildings, sportsFields, restaurants, attractions, hotels]
     }
 
     );
@@ -159,12 +159,12 @@ $(document).ready(function () {
         }
     }).addTo(map);
 
-    //Resturaunts
+    //Restaurants
     // Map markers for buildings
     // commented out the img and desc for the non-csu items
-    var geojsonResturaunts;
+    var geojsonRestaurants;
     var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
-    geojsonResturaunts = L.geoJson(resturauntData, {
+    geojsonRestaurants = L.geoJson(resturauntData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: orangeIcon }),
                 image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
@@ -174,7 +174,7 @@ $(document).ready(function () {
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
-            ).addTo(resturaunts);
+            ).addTo(restaurants);
 
             // Create, style, and populate building links list below the map
             var item = resturauntMarkerList.appendChild(document.createElement('button'));
@@ -223,14 +223,14 @@ $(document).ready(function () {
         }
     }).addTo(map);
 
-    //Resturaunts
+    //Restaurants
     // Map markers for buildings
     // commented out the img and desc for the non-csu items
     var geojsonAttraction;
     var attractionMarkerList = document.getElementById('attraction-marker-list');
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: greenIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: yellowIcon }),
                 image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -266,7 +266,7 @@ $(document).ready(function () {
         "Residence Halls": residenceBuildings,
         "Fields & Recreation": sportsFields,
         "Hotels & Transportation": hotels,
-        "Resturaunts": resturaunts,
+        "Restaurants": restaurants,
         "Pueblo Attractions": attractions
     };
 
@@ -315,4 +315,10 @@ $(document).ready(function () {
         }
     });
     map.addControl(new home());
+
+    //Adds locate plugin to do the GPS feature
+    L.control.locate().addTo(map);
+
+    var searchLayer = L.layerGroup().addTo(map);
+    map.addControl( new L.Control.Search({layer: searchLayer}) );
 });
