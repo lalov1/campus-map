@@ -1006,7 +1006,7 @@ var hotelData = {
     ]
 };
 
-var resturauntData = {
+var restaurantData = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -1194,13 +1194,13 @@ var resturauntData = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    38.26771,
-                    -104.62515
+                    38.319374, 
+                    -104.616631
                 ]
             },
             "properties": {
                 "id": "C43",
-                "name": "Tea Palace II",
+                "name": "Wonderful Bistro",
                 "popupContent": "template Content",
                 "imageUrl": "img/template.png",
                 "linkUrl": ""

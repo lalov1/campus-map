@@ -60,7 +60,7 @@ $(document).ready(function () {
     bubbleSort(fieldData);
     bubbleSort(hotelData);
     bubbleSort(attractionData);
-    bubbleSort(resturauntData);
+    bubbleSort(restaurantData);
 
     //Admin and Academic Buildings
     // Map markers for buildings
@@ -70,7 +70,7 @@ $(document).ready(function () {
     // Read the JSON array and add information to variables
     geojson = L.geoJson(adminData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: blueIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: buildingIcon }),
                 image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -103,7 +103,7 @@ $(document).ready(function () {
     // Read the JSON array and add information to variables
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: redIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: dormsIcon }),
                 image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -134,7 +134,7 @@ $(document).ready(function () {
     var fieldMarkerList = document.getElementById('field-marker-list');
     geojsonField = L.geoJson(fieldData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: greenIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: fieldsIcon }),
                 image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
@@ -163,10 +163,10 @@ $(document).ready(function () {
     // Map markers for buildings
     // commented out the img and desc for the non-csu items
     var geojsonRestaurants;
-    var resturauntMarkerList = document.getElementById('resturaunt-marker-list');
-    geojsonRestaurants = L.geoJson(resturauntData, {
+    var restaurantMarkerList = document.getElementById('restaurant-marker-list');
+    geojsonRestaurants = L.geoJson(restaurantData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: orangeIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: restaurantsIcon }),
                 image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -177,7 +177,7 @@ $(document).ready(function () {
             ).addTo(restaurants);
 
             // Create, style, and populate building links list below the map
-            var item = resturauntMarkerList.appendChild(document.createElement('button'));
+            var item = restaurantMarkerList.appendChild(document.createElement('button'));
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
@@ -198,7 +198,7 @@ $(document).ready(function () {
     var hotelMarkerList = document.getElementById('hotel-marker-list');
     geojsonHotel = L.geoJson(hotelData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: violetIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: hotelsIcon }),
                 image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -230,7 +230,7 @@ $(document).ready(function () {
     var attractionMarkerList = document.getElementById('attraction-marker-list');
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function (feature, layer) {
-            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: yellowIcon }),
+            var buildingMarker = L.marker(feature.geometry.coordinates, { icon: placesIcon }),
                 image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
@@ -318,7 +318,21 @@ $(document).ready(function () {
 
     //Adds locate plugin to do the GPS feature
     L.control.locate().addTo(map);
+    //L.map('map', { searchControl: {layer: adminBuildings} });
+	// set up and add search control to map
 
-    var searchLayer = L.layerGroup().addTo(map);
-    map.addControl( new L.Control.Search({layer: searchLayer}) );
+	var controlSearch = new L.Control.Search({
+		layer: adminBuildings,
+		propertyName: 'name',
+		initial: false,
+		autoCollapse: true,
+		markerLocation: true,
+		autoType: true
+	});
+
+	controlSearch.on('search_locationfound', function(a) {
+		a.layer.openPopup();
+	});
+    
+    map.addControl(controlSearch);
 });
