@@ -13,6 +13,11 @@ html, body, #mainMap {
 .list-group{
     width: 400px;
 }
+
 #mapMarkers {
     max-width: 250px;
+}
+
+.csu-pueblo-img{
+    width: 300px;
 }

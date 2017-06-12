@@ -71,7 +71,7 @@ $(document).ready(function () {
     geojson = L.geoJson(adminData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: buildingIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -104,7 +104,7 @@ $(document).ready(function () {
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: dormsIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -135,7 +135,7 @@ $(document).ready(function () {
     geojsonField = L.geoJson(fieldData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: fieldsIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'>',
+                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -167,7 +167,7 @@ $(document).ready(function () {
     geojsonRestaurants = L.geoJson(restaurantData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: restaurantsIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
+                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -199,7 +199,7 @@ $(document).ready(function () {
     geojsonHotel = L.geoJson(hotelData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: hotelsIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
+                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -231,7 +231,7 @@ $(document).ready(function () {
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: placesIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' width=\'100%\'> -->',
+                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
                 buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
                 infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
@@ -314,6 +314,7 @@ $(document).ready(function () {
             return container;
         }
     });
+
     map.addControl(new home());
 
     //Adds locate plugin to do the GPS feature
@@ -322,7 +323,7 @@ $(document).ready(function () {
 	// set up and add search control to map
 
 	var controlSearch = new L.Control.Search({
-		layer: adminBuildings,
+		layer: residenceBuildings,
 		propertyName: 'name',
 		initial: false,
 		autoCollapse: true,
@@ -330,9 +331,20 @@ $(document).ready(function () {
 		autoType: true
 	});
 
-	controlSearch.on('search_locationfound', function(a) {
-		a.layer.openPopup();
-	});
+	// controlSearch.on('search_locationfound', function(a) {
+	// 	a.layer.openPopup();
+	// });
     
     map.addControl(controlSearch);
+
+	// show an individual building programmatically, leverages search control plugin internals
+	var showBldg = function(val) {
+		controlSearch.expand();
+		controlSearch._input.value = val;
+		controlSearch._fillRecordsCache();
+		controlSearch._handleSubmit();
+		controlSearch.collapse();
+		controlSearch._input.value = '';
+	};
+
 });
