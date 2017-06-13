@@ -305,6 +305,7 @@ $(document).ready(function () {
             container.style.backgroundSize = '35px 35px';
             container.style.width = '35px';
             container.style.height = '35px';
+            container.style.cursor = 'pointer';
 
             container.onclick = function () {
                 map.closePopup();
