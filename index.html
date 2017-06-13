@@ -31,27 +31,33 @@
 
 <body>
     <!-- div for map placement on page -->
-    <div  style = "width:80%; height:70%; margin: 1em auto;">
-    <div id="mainMap"></div>
+    <div style="width:80%; height:70%; margin: 1em auto;">
+        <div id="mainMap"></div>
     </div>
+
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-xs-12">
-                <h3>CSU-Pueblo</h3>
-                <h4>Buildings on Campus</h4>
+            <div class="col-sm-12 col-md-4 col-xs-12">
+                <h2>CSU-Pueblo</h2>
+                <h3 class="buildings"><i class="fa fa-building-o" aria-hidden="true"></i>
+ Buildings on Campus</h3>
                 <div class="list-group" id="marker-list"></div>
-                <h4>Residence Buildings on Campus</h4>
+                <h3 class="dorms"><i class="fa fa-building" aria-hidden="true"></i>
+ Residence Buildings on Campus</h3>
                 <div class="list-group" id="res-marker-list"></div>
-                <h4>Campus Greenspace and Fields</h4>
+                <h3 class="fields"><i class="fa fa-users" aria-hidden="true"></i> Campus Greenspace & Fields</h3>
                 <div class="list-group" id="field-marker-list"></div>
             </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-                <h3>City of Pueblo, CO</h3>
-                <h4>Hotels</h4>
+            <div class="col-sm-6 col-md-4 col-md-offset-2 col-xs-12">
+                <h2>City of Pueblo, CO</h2>
+                <h3 class="hotels"><i class="fa fa-bed" aria-hidden="true"></i>
+Hotels</h3>
                 <div class="list-group" id="hotel-marker-list"></div>
-                <h4>Restaurants Near Campus</h4>
+                <h3 class="restaurants"><i class="fa fa-cutlery" aria-hidden="true"></i>
+ Restaurants Near Campus</h3>
                 <div class="list-group" id="restaurant-marker-list"></div>
-                <h4>Places to Visit</h4>
+                <h3 class="places"><i class="fa fa-location-arrow" aria-hidden="true"></i>
+Places to Visit</h3>
                 <div class="list-group" id="attraction-marker-list"></div>
             </div>
         </div>
