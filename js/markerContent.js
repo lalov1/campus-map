@@ -325,6 +325,81 @@ var adminData = {
                 "imageUrl": "img/thunder-village-complex.jpg",
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
+        }        ,
+        //needs description
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30902,
+                    -104.57049
+                ]
+            },
+            "properties": {
+                "id": "B38",
+                "name": "Fieldhouse (FLDH)",
+                "popupContent": "templateContent",
+                "imageUrl": "img/FieldHouse.png",
+                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31022,
+                    -104.56969
+                ]
+            },
+            "properties": {
+                "id": "B39",
+                "name": "Suites",
+                "popupContent": "templateContent",
+                "imageUrl": "img/templateImage.png",
+                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.31024,
+                    -104.57127
+                ]
+            },
+            "properties": {
+                "id": "B40",
+                "name": "Press Box/Presidential Suite",
+                "popupContent": "templateContent",
+                "imageUrl": "img/templateImage.png",
+                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        //needs pic and content
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.30935,
+                    -104.57098
+                ]
+            },
+            "properties": {
+                "id": "B41",
+                "name": "Leomiti Warrior Center (LWC)",
+                "popupContent": "templateContent",
+                "imageUrl": "img/templateImage.png",
+                "linkUrl": "http://www.gothunderwolves.com/sports/strength/photos/index"
+            }
         }
     ]
 };
@@ -594,82 +669,6 @@ var fieldData = {
                 "popupContent": "templateContent",
                 "imageUrl": "img/ThunderbowlStadium.png.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
-            }
-        }
-        ,
-        //needs description
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.30902,
-                    -104.57049
-                ]
-            },
-            "properties": {
-                "id": "B38",
-                "name": "Fieldhouse (FLDH)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/FieldHouse.png",
-                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
-            }
-        }
-        ,
-        //needs pic and content
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31022,
-                    -104.56969
-                ]
-            },
-            "properties": {
-                "id": "B39",
-                "name": "Suites",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
-            }
-        }
-        ,
-        //needs pic and content
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31024,
-                    -104.57127
-                ]
-            },
-            "properties": {
-                "id": "B40",
-                "name": "Press Box/Presidential Suite",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
-            }
-        }
-        ,
-        //needs pic and content
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.30935,
-                    -104.57098
-                ]
-            },
-            "properties": {
-                "id": "B41",
-                "name": "Leomiti Warrior Center (LWC)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "http://www.gothunderwolves.com/sports/strength/photos/index"
             }
         }
         // ,
