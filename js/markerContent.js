@@ -326,7 +326,7 @@ var adminData = {
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
         }        ,
-        //needs description
+        
         {
             "type": "Feature",
             "geometry": {
@@ -463,7 +463,7 @@ var fieldData = {
             }
         }
         ,
-        //needs description
+   
         {
             "type": "Feature",
             "geometry": {
@@ -476,7 +476,7 @@ var fieldData = {
             "properties": {
                 "id": "B27",
                 "name": "McKinney Pavilion",
-                "popupContent": "templateContent",
+                "popupContent": "Forgot to grab breakfast on your way out the door this morning? No problem! Just stop by the Pavilion and pick up a breakfast burrito to get you through the morning. Then, come back for lunch and relax at a table that offers a great view of campus to admire while you munch on pizza or other snack items.",
                 "imageUrl": "img/McKinneyPavilion.png",
                 "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
             }
