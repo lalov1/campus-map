@@ -34,10 +34,9 @@ $(document).ready(function () {
     var adminBuildings = new L.layerGroup(); // Buildings will be added as markers are added -- Admin Buildings
     var residenceBuildings = new L.layerGroup(); // Buildings will be added as markers are added -- Residence Buildings
     var sportsFields = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
-    var restaurants = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
-    var hotels = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
-    var attractions = new L.layerGroup(); // Buildings will be added as markers are added -- sports fields
-
+    var restaurants = new L.layerGroup(); // Buildings will be added as markers are added -- restaurants fields
+    var hotels = new L.layerGroup(); // Buildings will be added as markers are added -- hotels fields
+    var attractions = new L.layerGroup(); // Buildings will be added as markers are added -- attractions fields
 
     // Map initialization
     var map = L.map('mainMap', {
@@ -86,15 +85,17 @@ $(document).ready(function () {
             item.className = "list-group-item";
             item.innerHTML = feature.properties.name;
             item.onclick = function () {
+                var val = $(this).text();
                 map.closePopup();
                 map.setView(feature.geometry.coordinates);
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             };
         }
-    }).addTo(map);
+    });
+
     //Residence Halls
     // Map markers for buildings
     var geojsonRes;
@@ -123,10 +124,10 @@ $(document).ready(function () {
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             };
         }
-    }).addTo(map);
+    });
 
     //Sports Fields
     // Map markers for buildings
@@ -154,10 +155,10 @@ $(document).ready(function () {
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             };
         }
-    }).addTo(map);
+    });
 
     //Restaurants
     // Map markers for buildings
@@ -186,10 +187,10 @@ $(document).ready(function () {
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             }
         }
-    }).addTo(map);
+    });
 
     //Hotels
     // Map markers for buildings
@@ -218,10 +219,10 @@ $(document).ready(function () {
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             }
         }
-    }).addTo(map);
+    });
 
     //Restaurants
     // Map markers for buildings
@@ -250,10 +251,10 @@ $(document).ready(function () {
                 buildingMarker.openPopup();
                 $('html, body').animate({
                     scrollTop: $('#mainMap')
-                }, 175);
+                }, 400);
             }
         }
-    }).addTo(map);
+    });
 
     // Set up initial layer and marker UI options
     var baseLayers = {
@@ -320,11 +321,11 @@ $(document).ready(function () {
 
     //Adds locate plugin to do the GPS feature
     L.control.locate().addTo(map);
-    //L.map('map', { searchControl: {layer: adminBuildings} });
 	// set up and add search control to map
 
-	var controlSearch = new L.Control.Search({
-		layer: residenceBuildings,
+
+	var controlSearch = L.Control.Search({
+		layer: adminBuildings,
 		propertyName: 'name',
 		initial: false,
 		autoCollapse: true,
@@ -332,20 +333,6 @@ $(document).ready(function () {
 		autoType: true
 	});
 
-	// controlSearch.on('search_locationfound', function(a) {
-	// 	a.layer.openPopup();
-	// });
-    
     map.addControl(controlSearch);
-
-	// show an individual building programmatically, leverages search control plugin internals
-	var showBldg = function(val) {
-		controlSearch.expand();
-		controlSearch._input.value = val;
-		controlSearch._fillRecordsCache();
-		controlSearch._handleSubmit();
-		controlSearch.collapse();
-		controlSearch._input.value = '';
-	};
 
 });
