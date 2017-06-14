@@ -339,7 +339,7 @@ var adminData = {
             "properties": {
                 "id": "B38",
                 "name": "Fieldhouse (FLDH)",
-                "popupContent": "templateContent",
+                "popupContent": "The Field House houses locker rooms for ThunderWolf football and track and field teams, a weight room, football and track coaches offices, equipment room, training room, meeting rooms, and a multipurpose room for events.",
                 "imageUrl": "img/FieldHouse.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
