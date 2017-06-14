@@ -596,7 +596,7 @@ var fieldData = {
             }
         }
         ,
-        //needs content
+        
         {
             "type": "Feature",
             "geometry": {
@@ -609,7 +609,7 @@ var fieldData = {
             "properties": {
                 "id": "B34",
                 "name": "Ropes Course (RC)",
-                "popupContent": "templateContent",
+                "popupContent": "Come build your leadership, teamwork, and communication skills at the inspiring and challenging CSU-Pueblo Ropes course. In a controlled environment, learn about how individual contributions can benefit a team and how these newfound skills can be applied to your own life. Take the challenge and discover all kinds of new things about yourself and your teammates!",
                 "imageUrl": "img/RopesCourse.png",
                 "linkUrl": "https://www.csupueblo.edu/student-engagement-and-leadership/contact-us/index.html"
             }
