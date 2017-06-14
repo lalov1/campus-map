@@ -501,7 +501,7 @@ var fieldData = {
             }
         }
         ,
-        //needs description and link
+        //needs link
         {
             "type": "Feature",
             "geometry": {
@@ -514,13 +514,13 @@ var fieldData = {
             "properties": {
                 "id": "B29",
                 "name": "Hasan Outdoor Amphitheater",
-                "popupContent": "templateContent",
+                "popupContent": "Bring a friend and settle in to watch a movie beneath the expanse of the unparalleled Colorado sky at the Outdoor Amphitheater. The films are projected onto the side of the nearby Art and Music Building! The amphitheater offers an extensive view of the Colorado mountain ranges.",
                 "imageUrl": "img/HasanOutdoorAmphitheatre.png",
                 "linkUrl": "templateUrl"
             }
         }
         ,
-        //needs description and link
+        //needs link
         {
             "type": "Feature",
             "geometry": {
@@ -533,7 +533,7 @@ var fieldData = {
             "properties": {
                 "id": "B30",
                 "name": "Solar Panel Array",
-                "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. ",
+                "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. The 1.2-megawatt solar power system, one of the largest at an educational institution in the nation, will help the university control utility costs as prices and usage increase over time. The solar array covers 4.3 acres with more than 6,800 photovoltaic panels and is capable of generating approximately 1,800 megawatt hours of electricity per year.",
                 "imageUrl": "img/SolarPanelArray.png",
                 "linkUrl": "templateUrl"
             }
