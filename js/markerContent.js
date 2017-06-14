@@ -667,7 +667,7 @@ var fieldData = {
                 "id": "B37",
                 "name": "DeRose Thunderbowl Stadium",
                 "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. ",
-                "imageUrl": "img/ThunderbowlStadium.png.png",
+                "imageUrl": "img/ThunderbowlStadium.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
