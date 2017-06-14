@@ -533,7 +533,7 @@ var fieldData = {
             "properties": {
                 "id": "B30",
                 "name": "Solar Panel Array",
-                "popupContent": "templateContent",
+                "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. ",
                 "imageUrl": "img/SolarPanelArray.png",
                 "linkUrl": "templateUrl"
             }
