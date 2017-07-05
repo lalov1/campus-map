@@ -117,7 +117,7 @@ var adminData = {
                 "id": "B4",
                 "name": "Library and Academic Resource Center (LARC)",
                 "popupContent": "Following a $24 million renovation, the University Library reopened in Spring of 2011, with a 22,000-square-foot addition as well as a complete replacementof the mechanical and electrical systems, significant improvements in technology, and a more inviting environment for students. The building was renovated and constructed to the highest possible standards for efficiency and sustainability. The breezeway beneath the library wing was enclosed and now houses a variety of student services from the First-Year Program and Career Center to the President's Leadership Program.",
-                "imageUrl": "img/Library.jpg",
+                "imageUrl": "img/Library.png",
                 "linkUrl": "http://library.csupueblo.edu/"
             }
         },
