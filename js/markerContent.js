@@ -759,7 +759,7 @@ var resData = {
                 "id": "B18",
                 "name": "Culebra Hall (CLBR)",
                 "popupContent": "The nearly 80,000 square-feet Culebra Hall has  four floors of student rooms, totaling 235 beds, a commons/lounge area with adjacent small group study rooms, laundry, mailroom and a late-night food venue offering coffee, drinks, soups, snacks, sandwiches, and pizza.",
-                "imageUrl": "img/culebraHall.jpg",
+                "imageUrl": "img/CulebraHall.png",
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
