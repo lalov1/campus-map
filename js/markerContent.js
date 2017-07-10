@@ -236,7 +236,7 @@ var adminData = {
                 "id": "B11",
                 "name": "Student Recreation Center (SRC)",
                 "popupContent": "After opening its door in Fall 2008, the new 43,000-square-foot Student Recreation Center gives students access to basketball courts, a state-of-the-art weight room, indoor running track, intramural competitions, classes like yoga, kickboxing, and step aerobics, and Outdoor Pursuits programming and equipment rental. Membership is totally free to CSU-Pueblo students!",
-                "imageUrl": "img/rec-center.jpg",
+                "imageUrl": "img/StudentRecCenter.png",
                 "linkUrl": "https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
