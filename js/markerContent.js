@@ -458,7 +458,7 @@ var fieldData = {
                 "id": "B26",
                 "name": "University Fountain Plaza",
                 "popupContent": "Unwind to the peaceful sound of gushing water at the University Fountain Plaza. Admire the bronze casting on the fountain and breathe in the sweet smell of the colorful flowers that surround the plaza during the temperate seasons. Grab your lunch or your favorite textbook and relax in this peaceful atmosphere.",
-                "imageUrl": "img/fountain.jpg",
+                "imageUrl": "img/UniversityFountainPlaza.png",
                 "linkUrl": "templateUrl"
             }
         }
