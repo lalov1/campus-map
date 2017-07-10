@@ -270,7 +270,7 @@ var adminData = {
                 "id": "B13",
                 "name": "Buell Communication Center/KTSC-TV (BCC)",
                 "popupContent": "A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs! The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
-                "imageUrl": "img/VisitorCenterandBuellCommunicationsCenter.png",
+                "imageUrl": "img/VisitorCenterBuellCommCenter.png",
                 "linkUrl": "https://www.csupueblo.edu/mass-communications/labs/ktsc-tv.html"
             }
         },
