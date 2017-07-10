@@ -49,7 +49,7 @@ var adminData = {
                 "id": "B24",
                 "name": "Massari Arena (PE)",
                 "popupContent": "Renovated in 2008, this world-class indoor sports arena features a swimming pool, basketball and racquetball courts, an athletic training room, as well as athletic administrative offices and the CSU-Pueblo Athletic Hall of Honor. Come check out the challenging climbing wall to see if you can reach the top!",
-                "imageUrl": "img/Massari-Arena.jpg",
+                "imageUrl": "img/MassariArena.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/massari"
             }
         },
