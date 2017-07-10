@@ -553,7 +553,7 @@ var fieldData = {
                 "id": "B31",
                 "name": "Rawlings Softball Complex",
                 "popupContent": "templateContent",
-                "imageUrl": "img/RawlingsOutdoorSportsComplex.png",
+                "imageUrl": "img/RawlingsSportsComplex.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
         }
