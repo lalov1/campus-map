@@ -572,7 +572,7 @@ var fieldData = {
                 "id": "B32",
                 "name": "Rawlings Field",
                 "popupContent": "templateContent",
-                "imageUrl": "img/RawlingsOutdoorSportsComplex(Quad).png",
+                "imageUrl": "img/RawlingsSportsComplex(Quad).png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
         }
