@@ -219,7 +219,7 @@ var adminData = {
                 "id": "B10",
                 "name": "Occhiato University Center (OUC)",
                 "popupContent": "The OUC is bursting at the seams with a tremendous array of student services, including the CSU-Pueblo Bookstore, the Career Center, the offices of the student government and other clubs, two dining facilities, and a stunning ballroom for special events. In the OUC, something is exciting is always happening and YOU can be right in the middle of it!",
-                "imageUrl": "img/OUC.png",
+                "imageUrl": "img/OcchiatoUniversity.png",
                 "linkUrl": "https://www.csupueblo.edu/auxiliary-services/"
             }
         },
