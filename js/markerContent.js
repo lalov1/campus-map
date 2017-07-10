@@ -496,7 +496,7 @@ var fieldData = {
                 "id": "B28",
                 "name": "Outdoor Classroom",
                 "popupContent": "A learning environment with the benefit of the great outdoors.  The outdoor classroom atmosphere is accompanied by a newly sanded area with a white rock border.",
-                "imageUrl": "img/OutdoorClassroomandRockGarden.png",
+                "imageUrl": "img/OutdoorClassroomRockGarden.png",
                 "linkUrl": "templateUrl"
             }
         }
