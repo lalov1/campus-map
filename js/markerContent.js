@@ -421,7 +421,7 @@ var fieldData = {
                 "id": "B21",
                 "name": "Student Recreation Field",
                 "popupContent": "Unwind from a long day of studying at the spectacular student recreation field. This 48,000 square foot facility is a wonderful place to throw a football, toss a Frisbee, or kick a soccer ball. In the mood for some competition? Check out the many intramural and club sports that use the field for practice and games.",
-                "imageUrl": "img/StudentRecreationField.png",
+                "imageUrl": "img/StudentRecField.png",
                 "linkUrl": "https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
