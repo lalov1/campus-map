@@ -666,7 +666,7 @@ var fieldData = {
             "properties": {
                 "id": "B37",
                 "name": "DeRose Thunderbowl Stadium",
-                "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. ",
+                "popupContent": "The Neta & Eddie DeRose Thunderbowl Stadium is a world-class facility that is without equal in the NCAA Division II. Featuring 7,000 spectator seats, a nine lane all-weather track, a field house, and more, the Thunderbowl Stadium is something the CSU-Pueblo community is truly proud to have. Come cheer on the Thunderwolf football team and women’s track and field team as they journey through exciting seasons!",
                 "imageUrl": "img/ThunderbowlStadium.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
