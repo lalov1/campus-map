@@ -359,7 +359,7 @@ var adminData = {
                 "id": "B39",
                 "name": "Suites",
                 "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "imageUrl": "img/Suites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
@@ -378,7 +378,7 @@ var adminData = {
                 "id": "B40",
                 "name": "Press Box/Presidential Suite",
                 "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "imageUrl": "img/PressBoxPresSuites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
