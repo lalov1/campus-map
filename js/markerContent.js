@@ -358,7 +358,7 @@ var adminData = {
             "properties": {
                 "id": "B39",
                 "name": "Suites",
-                "popupContent": "templateContent",
+                "popupContent": "The Neta and Eddie DeRose ThunderBowl offers groups and companies the opportunity to cheer on the ThunderWolves in style.  The suite is the perfect place to pamper guests in privacy, comfort and style.  Suites are great for a celebration, to entertain business clients or to treat the family to that special get-together, all while enjoying the excitement of ThunderWolves football!  Costs of the suites range are as little as $1,250 per game, or as little as $5,800 per season, and comes with a $300 catering allownace, a $500 tax deduction, admission tickets, as well as included private bathrooms, wet bat, refrigerator and 42-inch flat-screen televisions with Comcast cable.",
                 "imageUrl": "img/Suites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
@@ -377,7 +377,7 @@ var adminData = {
             "properties": {
                 "id": "B40",
                 "name": "Press Box/Presidential Suite",
-                "popupContent": "templateContent",
+                "popupContent": "The Neta and Eddie DeRose ThunderBowl offers groups and companies the opportunity to cheer on the ThunderWolves in style.  The suite is the perfect place to pamper guests in privacy, comfort and style.  Suites are great for a celebration, to entertain business clients or to treat the family to that special get-together, all while enjoying the excitement of ThunderWolves football!  Costs of the suites range are as little as $1,250 per game, or as little as $5,800 per season, and comes with a $300 catering allownace, a $500 tax deduction, admission tickets, as well as included private bathrooms, wet bat, refrigerator and 42-inch flat-screen televisions with Comcast cable.",
                 "imageUrl": "img/PressBoxPresSuites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
