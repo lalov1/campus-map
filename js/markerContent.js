@@ -686,8 +686,7 @@ var fieldData = {
                "imageUrl":"img/WaterTowers.png",
                "linkUrl":"templateUrl"
             }
-        },
-
+        }
         // ,
         // {
         //    "type":"Feature",
