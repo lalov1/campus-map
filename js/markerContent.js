@@ -321,7 +321,7 @@ var adminData = {
             "properties": {
                 "id": "B42",
                 "name": "Thunder Village",
-                "popupContent": "The Thunder Village Complex is a 10,000 square foot building that was built by Arc Valley Construction and designed by Gary Anzuini. Thunder Village is planned to be filled with vendors and stores where students from campus will spend money. The first tennant will be Thunder Zone Pizza and it will open in June of 2017.",
+                "popupContent": "Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
                 "imageUrl": "img/thunder-village-complex.jpg",
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
