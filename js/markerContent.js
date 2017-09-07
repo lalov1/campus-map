@@ -646,7 +646,7 @@ var fieldData = {
                 "id": "B36",
                 "name": "Art and Lorraine Gonzales Stadium",
                 "popupContent": "The existing soccer complex has been enhanced through private dollars with a new synthetic turf field, 550-seat grandstand, public restrooms, a concession area, press box, lobby, locker rooms, training room, and offices.",
-                "imageUrl": "img/templateImage.png",
+                "imageUrl": "img/ArtLorraineGonzalesStadium.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/soccer-lax"
             }
         }
