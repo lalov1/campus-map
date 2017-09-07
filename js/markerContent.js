@@ -396,8 +396,8 @@ var adminData = {
             "properties": {
                 "id": "B41",
                 "name": "Leomiti Warrior Center (LWC)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "CSU-Pueblo's strength-training facilities are considered amoung the finest in all of Division II. The jewel of the University's strength facilities is the 10,000-square-foot weight training facility at the Neta and Eddie DeRose ThunderBowl, the Leomiti Warrior Center, while the newly ernovated (2015) Massari Arena Weight Room provides additional workout space to serve all of CSU-Pueblo 22 athletic programs.",
+                "imageUrl": "img/LeomitiWarriorCenter.png",
                 "linkUrl": "http://www.gothunderwolves.com/sports/strength/photos/index"
             }
         }
