@@ -552,7 +552,7 @@ var fieldData = {
             "properties": {
                 "id": "B31",
                 "name": "Rawlings Softball Complex",
-                "popupContent": "templateContent",
+                "popupContent": "The Rawlings Outdoor Sports Complex is a first-class facility that is home to CSU-Pueblo baseball and softball. Take a break and watch one of the many matches that take place on the baseball or softball fields. Bring your friends or family and cheer on the Thunderwolves!",
                 "imageUrl": "img/RawlingsSportsComplex.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
@@ -571,7 +571,7 @@ var fieldData = {
             "properties": {
                 "id": "B32",
                 "name": "Rawlings Field",
-                "popupContent": "templateContent",
+                "popupContent": "The Rawlings Outdoor Sports Complex is a first-class facility that is home to CSU-Pueblo baseball and softball. Take a break and watch one of the many matches that take place on the baseball or softball fields. Bring your friends or family and cheer on the Thunderwolves!",
                 "imageUrl": "img/RawlingsSportsComplex(Quad).png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
