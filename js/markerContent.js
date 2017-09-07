@@ -321,7 +321,7 @@ var adminData = {
             "properties": {
                 "id": "B42",
                 "name": "Thunder Village",
-                "popupContent": "Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
+                "popupContent": "A 10,000-square-foot, $2.4 million commercial complex located just south of the Neta and Eddie DeRose ThunderBowl. Thunder Village is a commercial development financed and managed by the CSU-Pueblo Foundation that will house three businesses and provide commercial services near the Belmont campus. No donor funds were used in transactions regarding the Thunder Village project. As the property manager, CSU-Pueblo will benefit from the rent collected from the occupants of Thunder Village.",
                 "imageUrl": "img/thunder-village-complex.jpg",
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
@@ -686,7 +686,8 @@ var fieldData = {
                "imageUrl":"img/WaterTowers.png",
                "linkUrl":"templateUrl"
             }
-        }
+        },
+
         // ,
         // {
         //    "type":"Feature",
