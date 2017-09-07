@@ -82,7 +82,7 @@ var adminData = {
             "properties": {
                 "id": "B2",
                 "name": "General Classroom Building (GCB)",
-                "popupContent": "Information here about the General Classroom Building, etc.",
+                "popupContent": "Three floors, 40,000 square feet, 10 large lecture classrooms, fully-connected to online campus IT systems, wireless throughout building, faculty offices, seminar rooms, two-story atrium, coffee/study lounge, LEED Gold design and construction, sustainable native landscaping.",
                 "imageUrl": "img/GeneralClassroomBuilding.jpg",
                 "linkUrl": "http://library.csupueblo.edu/"
             }
