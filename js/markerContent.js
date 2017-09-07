@@ -578,25 +578,23 @@ var fieldData = {
         }
         ,
         //needs pic, description
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31003,
-                    -104.57346
-                ]
-            },
-            "properties": {
-                "id": "B33",
-                "name": "Tennis Courts (TC)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/index"
-            }
-        }
-        ,
-        
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        //             38.31003,
+        //             -104.57346
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B33",
+        //         "name": "Tennis Courts (TC)",
+        //         "popupContent": "templateContent",
+        //         "imageUrl": "img/templateImage.png",
+        //         "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/index"
+        //     }
+        // },
         {
             "type": "Feature",
             "geometry": {
@@ -712,23 +710,23 @@ var resData = {
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31078,
-                    -104.57925
-                ]
-            },
-            "properties": {
-                "id": "B16",
-                "name": "Belmont Residence Hall (BRH)",
-                "popupContent": "Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
-                "imageUrl": "img/BelmontResidenceHall.png",
-                "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
-            }
-        },
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        //             38.31078,
+        //             -104.57925
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B16",
+        //         "name": "Belmont Residence Hall (BRH)",
+        //         "popupContent": "Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
+        //         "imageUrl": "img/BelmontResidenceHall.png",
+        //         "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
+        //     }
+        // },
         {
             "type": "Feature",
             "geometry": {
