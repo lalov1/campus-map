@@ -669,6 +669,24 @@ var fieldData = {
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
+        ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.31168,
+                    -104.57673
+                ]
+            },
+           "properties": {
+               "id":"B38",
+               "name":"Water Towers",
+               "popupContent":"These towers are owned by the Pueblo Board of Waterworks municipal domestic water provider for the City of Pueblo and serve the CSU-Pueblo campus as well as the surrounding northeast part of the city.",
+               "imageUrl":"img/WaterTowers.png",
+               "linkUrl":"templateUrl"
+            }
+        }
         // ,
         // {
         //    "type":"Feature",
