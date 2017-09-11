@@ -401,6 +401,23 @@ var adminData = {
                 "linkUrl": "http://www.gothunderwolves.com/sports/strength/photos/index"
             }
         }
+        //,
+        // {
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
+
+        //         ]
+        //     },
+        //    "properties": {
+        //        "id":"B0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
+        //     }
+        // }
     ]
 };
 
@@ -680,7 +697,7 @@ var fieldData = {
                 ]
             },
            "properties": {
-               "id":"B38",
+               "id":"B43",
                "name":"Water Towers",
                "popupContent":"These towers are owned by the Pueblo Board of Waterworks municipal domestic water provider for the City of Pueblo and serve the CSU-Pueblo campus as well as the surrounding northeast part of the city.",
                "imageUrl":"img/WaterTowers.png",
@@ -698,7 +715,7 @@ var fieldData = {
                 ]
             },
            "properties": {
-               "id":"B39",
+               "id":"B44",
                "name":"Howling Wolf Statue",
                "popupContent":"This howling wolf statue, nicknamed King of the Hill, stands as a guardian over the campus from its perch on a knoll on the east side of campus. Students purchased and gifted to the University the cast aluminum life-sized wolf in 2008 to further establish the University’s identity as ThunderWolves.",
                "imageUrl":"img/HowlingWolfStatue.png",
@@ -716,7 +733,7 @@ var fieldData = {
                 ]
             },
            "properties": {
-               "id":"B40",
+               "id":"B45",
                "name":"Wolf Statue",
                "popupContent":"Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
                "imageUrl":"img/WolfStatue.png",
