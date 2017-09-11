@@ -687,6 +687,42 @@ var fieldData = {
                "linkUrl":"templateUrl"
             }
         }
+         ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.30502,
+                    -104.57542
+                ]
+            },
+           "properties": {
+               "id":"B39",
+               "name":"Howling Wolf Statue",
+               "popupContent":"This howling wolf statue, nicknamed King of the Hill, stands as a guardian over the campus from its perch on a knoll on the east side of campus. Students purchased and gifted to the University the cast aluminum life-sized wolf in 2008 to further establish the University’s identity as ThunderWolves.",
+               "imageUrl":"img/HowlingWolfStatue.png",
+               "linkUrl":"templateUrl"
+            }
+        }
+        ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.30804,
+                    -104.57775
+                ]
+            },
+           "properties": {
+               "id":"B40",
+               "name":"Wolf Statue",
+               "popupContent":"Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
+               "imageUrl":"img/WolfStatue.png",
+               "linkUrl":"templateUrl"
+            }
+        }
         // ,
         // {
         //    "type":"Feature",
