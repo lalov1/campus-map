@@ -14,8 +14,8 @@ var adminData = {
             "properties": {
                 "id": "B22",
                 "name": "Heating Plant",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.csupueblo.edu/facilities-management/index.html"
             }
         },
@@ -456,8 +456,8 @@ var fieldData = {
             "properties": {
                 "id": "B25",
                 "name": "Lindberg Garden",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
             }
         },
@@ -476,7 +476,7 @@ var fieldData = {
                 "name": "University Fountain Plaza",
                 "popupContent": "Unwind to the peaceful sound of gushing water at the University Fountain Plaza. Admire the bronze casting on the fountain and breathe in the sweet smell of the colorful flowers that surround the plaza during the temperate seasons. Grab your lunch or your favorite textbook and relax in this peaceful atmosphere.",
                 "imageUrl": "img/UniversityFountainPlaza.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
@@ -514,7 +514,7 @@ var fieldData = {
                 "name": "Outdoor Classroom",
                 "popupContent": "A learning environment with the benefit of the great outdoors.  The outdoor classroom atmosphere is accompanied by a newly sanded area with a white rock border.",
                 "imageUrl": "img/OutdoorClassroomRockGarden.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
@@ -533,7 +533,7 @@ var fieldData = {
                 "name": "Hasan Outdoor Amphitheater",
                 "popupContent": "Bring a friend and settle in to watch a movie beneath the expanse of the unparalleled Colorado sky at the Outdoor Amphitheater. The films are projected onto the side of the nearby Art and Music Building! The amphitheater offers an extensive view of the Colorado mountain ranges.",
                 "imageUrl": "img/HasanOutdoorAmphitheatre.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
@@ -552,7 +552,7 @@ var fieldData = {
                 "name": "Solar Panel Array",
                 "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. The 1.2-megawatt solar power system, one of the largest at an educational institution in the nation, will help the university control utility costs as prices and usage increase over time. The solar array covers 4.3 acres with more than 6,800 photovoltaic panels and is capable of generating approximately 1,800 megawatt hours of electricity per year.",
                 "imageUrl": "img/SolarPanelArray.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
@@ -643,9 +643,9 @@ var fieldData = {
             "properties": {
                 "id": "B35",
                 "name": "Weindling Park",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "templateUrl"
+                "popupContent": "",
+                "imageUrl": "",
+                "linkUrl": ""
             }
         }
         ,
@@ -701,7 +701,7 @@ var fieldData = {
                "name":"Water Towers",
                "popupContent":"These towers are owned by the Pueblo Board of Waterworks municipal domestic water provider for the City of Pueblo and serve the CSU-Pueblo campus as well as the surrounding northeast part of the city.",
                "imageUrl":"img/WaterTowers.png",
-               "linkUrl":"templateUrl"
+               "linkUrl":""
             }
         }
          ,
@@ -719,7 +719,7 @@ var fieldData = {
                "name":"Howling Wolf Statue",
                "popupContent":"This howling wolf statue, nicknamed King of the Hill, stands as a guardian over the campus from its perch on a knoll on the east side of campus. Students purchased and gifted to the University the cast aluminum life-sized wolf in 2008 to further establish the University’s identity as ThunderWolves.",
                "imageUrl":"img/HowlingWolfStatue.png",
-               "linkUrl":"templateUrl"
+               "linkUrl":""
             }
         }
         ,
@@ -737,7 +737,7 @@ var fieldData = {
                "name":"Wolf Statue",
                "popupContent":"Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
                "imageUrl":"img/WolfStatue.png",
-               "linkUrl":"templateUrl"
+               "linkUrl":""
             }
         }
         // ,
