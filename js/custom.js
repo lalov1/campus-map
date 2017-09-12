@@ -70,10 +70,10 @@ $(document).ready(function () {
     geojson = L.geoJson(adminData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: buildingIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
@@ -105,10 +105,10 @@ $(document).ready(function () {
     geojsonRes = L.geoJson(resData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: dormsIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
@@ -136,10 +136,10 @@ $(document).ready(function () {
     geojsonField = L.geoJson(fieldData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: fieldsIcon }),
-                image = '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<p>' + feature.properties.popupContent + '</p>',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
@@ -168,10 +168,10 @@ $(document).ready(function () {
     geojsonRestaurants = L.geoJson(restaurantData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: restaurantsIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
@@ -200,10 +200,10 @@ $(document).ready(function () {
     geojsonHotel = L.geoJson(hotelData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: hotelsIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
@@ -232,10 +232,10 @@ $(document).ready(function () {
     geojsonAttraction = L.geoJson(attractionData, {
         onEachFeature: function (feature, layer) {
             var buildingMarker = L.marker(feature.geometry.coordinates, { icon: placesIcon }),
-                image = '<!-- <img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'> -->',
+                image = (feature.properties.imageUrl!=="") ? '<img src=\'' + feature.properties.imageUrl + '\' class=\'csu-pueblo-img\'>' : '',
                 buildingName = '<h4>' + feature.properties.name + '</h4>',
-                buildingInfo = '<!-- <p>' + feature.properties.popupContent + '</p> -->',
-                infoLink = '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>';
+                buildingInfo = (feature.properties.popupContent!=="") ? '<p>' + feature.properties.popupContent + '</p>' : '',
+                infoLink = (feature.properties.linkUrl!=="") ? '<a href=\'' + feature.properties.linkUrl + '\' target=\'_blank\'>More Information</a>' : '';;
             buildingMarker.bindPopup('<div id=\"mapMarkers\">' + image + buildingName + buildingInfo + infoLink + '</div>', {
                 keepInView: true
             }
