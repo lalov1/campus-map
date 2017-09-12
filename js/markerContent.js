@@ -1271,7 +1271,7 @@ var restaurantData = {
                 "name": "Wonderful Bistro",
                 "popupContent": "",
                 "imageUrl": "",
-                "linkUrl": ""
+                "linkUrl": "http://wonderfulbistrochinesecuisine.com/"
             }
         }
         // ,
