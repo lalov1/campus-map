@@ -885,8 +885,8 @@ var hotelData = {
             "properties": {
                 "id": "C1",
                 "name": "Pueblo Airport (Hertz)",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.hertz247.co.uk/bq/en-gb/Home"
             }
         }
@@ -903,8 +903,8 @@ var hotelData = {
             "properties": {
                 "id": "C2",
                 "name": "Avis Rent A Car",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.avis.com/en/home"
             }
         }
@@ -921,8 +921,8 @@ var hotelData = {
             "properties": {
                 "id": "C3",
                 "name": "Enterprise Rent-A-Car",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.enterprise.com/en/car-rental/locations/us/co.html?gclid=CjwKEAiA3NTFBRDKheuO6IG43VQSJAA74F77El27NhLmjtH_phJqzUTfMdxW-rQo9zzB7VK0ME87AhoC5FLw_wcB&cm_mmc=Google-_-Brand-_-E_G_US_SE_Geo_B_BMM_NTL_EN_US-_-enterprise_co&s_kwcid=AL!4824!3!169909537661!b!!g!!%2Benterprise%20%2Bco&ef_id=WJESMAAAAM26Ahks:20170228223244:s"
             }
         }
@@ -939,8 +939,8 @@ var hotelData = {
             "properties": {
                 "id": "C4",
                 "name": "Shuttle Service of Southern Colorado",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www1.shuttleserviceofsoutherncolorado.com/?kw="
             }
         }
@@ -957,8 +957,8 @@ var hotelData = {
             "properties": {
                 "id": "C23",
                 "name": "Ramada Inn",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.wyndhamhotels.com/ramada/pueblo-colorado/ramada-pueblo/overview?CID=LC:RA:20160927:RIO:Local:SM-ramotn"
             }
         }
@@ -975,8 +975,8 @@ var hotelData = {
             "properties": {
                 "id": "C24",
                 "name": "La Quinta Inn and Suites",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.laquintapueblo.com/?cid=local_google_972"
             }
         }
@@ -993,8 +993,8 @@ var hotelData = {
             "properties": {
                 "id": "C25",
                 "name": "Courtyard by Marriott",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.marriott.com/hotels/travel/pubcy-courtyard-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
@@ -1011,8 +1011,8 @@ var hotelData = {
             "properties": {
                 "id": "C26",
                 "name": "Holiday Inn Express & Suites",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pueblo/pbchi/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-USA-_-PBCHI"
             }
         }
@@ -1029,8 +1029,8 @@ var hotelData = {
             "properties": {
                 "id": "C28",
                 "name": "Wingate by Windham",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.wyndhamhotels.com/wingate/pueblo-colorado/wingate-by-wyndham-pueblo/overview?CID=LC:WG:20160927:RIO:Local:SM-wgmotn"
             }
         }
@@ -1047,8 +1047,8 @@ var hotelData = {
             "properties": {
                 "id": "C29",
                 "name": "SpringHill Suites by Marriott",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.marriott.com/hotels/travel/pubsh-springhill-suites-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
@@ -1089,8 +1089,8 @@ var restaurantData = {
             "properties": {
                 "id": "C33",
                 "name": "Andy Mac's Sports Grill",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/andymacspueblo/"
             }
         }
@@ -1107,8 +1107,8 @@ var restaurantData = {
             "properties": {
                 "id": "C34",
                 "name": "Angelo's Pizza Parlor",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.angelospizzapie.com/"
             }
         }
@@ -1125,8 +1125,8 @@ var restaurantData = {
             "properties": {
                 "id": "C35",
                 "name": "Do Drop Inn Pizza",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.dodropinnpueblo.com/"
             }
         }
@@ -1143,8 +1143,8 @@ var restaurantData = {
             "properties": {
                 "id": "C36",
                 "name": "Gold Dust Saloon",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://golddustsaloon.net/"
             }
         }
@@ -1161,8 +1161,8 @@ var restaurantData = {
             "properties": {
                 "id": "C37",
                 "name": "Pass Key",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.passkeyrestaurant.com/"
             }
         }
@@ -1179,8 +1179,8 @@ var restaurantData = {
             "properties": {
                 "id": "C38",
                 "name": "MoMo Japanese Restaurant",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/MomoJapaneseRestaurant/"
             }
         }
@@ -1197,8 +1197,8 @@ var restaurantData = {
             "properties": {
                 "id": "C39",
                 "name": "Cactus Flower",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://cactusflowerrestaurant.com/"
             }
         }
@@ -1215,8 +1215,8 @@ var restaurantData = {
             "properties": {
                 "id": "C40",
                 "name": "Mill Stop Cafe",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Mill-Stop-321963661315040/?rf=108134245895340"
             }
         }
@@ -1233,8 +1233,8 @@ var restaurantData = {
             "properties": {
                 "id": "C41",
                 "name": "Papa Jose's Union Ave Cafe",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Papajoses/"
             }
         }
@@ -1251,8 +1251,8 @@ var restaurantData = {
             "properties": {
                 "id": "C42",
                 "name": "Manhattan's Pizza Parlor",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Manhattans-Pizza-Parlor-and-More-121400501218936/"
             }
         }
@@ -1269,8 +1269,8 @@ var restaurantData = {
             "properties": {
                 "id": "C43",
                 "name": "Wonderful Bistro",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": ""
             }
         }
@@ -1309,8 +1309,8 @@ var attractionData = {
             "properties": {
                 "id": "C44",
                 "name": "Eagleridge Shopping Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": ""
             }
         }
@@ -1327,8 +1327,8 @@ var attractionData = {
             "properties": {
                 "id": "C45",
                 "name": "Pueblo Mall",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pueblomall.com/"
             }
         }
@@ -1345,8 +1345,8 @@ var attractionData = {
             "properties": {
                 "id": "C30",
                 "name": "Riverwalk",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://puebloriverwalk.org/"
             }
         }
@@ -1363,8 +1363,8 @@ var attractionData = {
             "properties": {
                 "id": "C31",
                 "name": "Bishop's Castle",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.bishopcastle.org/"
             }
         }
@@ -1381,8 +1381,8 @@ var attractionData = {
             "properties": {
                 "id": "C32",
                 "name": "Lake Pueblo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://cpw.state.co.us/placestogo/parks/LakePueblo"
             }
         }
@@ -1399,8 +1399,8 @@ var attractionData = {
             "properties": {
                 "id": "C5",
                 "name": "Cinemark Tinseltown - Pueblo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.cinemark.com/colorado/cinemark-tinseltown"
             }
         }
@@ -1417,8 +1417,8 @@ var attractionData = {
             "properties": {
                 "id": "C6",
                 "name": "Mesa Drive In",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.mesadrive-in.com/"
             }
         }
@@ -1435,8 +1435,8 @@ var attractionData = {
             "properties": {
                 "id": "C7",
                 "name": "Big Daddy's Sunset Bowl",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/BigDaddysSunsetBowl/"
             }
         }
@@ -1453,8 +1453,8 @@ var attractionData = {
             "properties": {
                 "id": "C8",
                 "name": "Bowlero Lanes",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/pages/Bowlero-Lanes/321515781221652"
             }
         }
@@ -1471,8 +1471,8 @@ var attractionData = {
             "properties": {
                 "id": "C9",
                 "name": "El Centro del Quinto Sol Skate Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/334/El-Centro"
             }
         }
@@ -1489,8 +1489,8 @@ var attractionData = {
             "properties": {
                 "id": "C10",
                 "name": "Epic Entertainment",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.epicentertainmentco.com/"
             }
         }
@@ -1507,8 +1507,8 @@ var attractionData = {
             "properties": {
                 "id": "C11",
                 "name": "Pueblo City Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/facilities/facility/details/9"
             }
         }
@@ -1525,8 +1525,8 @@ var attractionData = {
             "properties": {
                 "id": "C12",
                 "name": "Mineral Palace Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/Facilities/Facility/Details/Mineral-Palace-Park-36"
             }
         }
@@ -1543,8 +1543,8 @@ var attractionData = {
             "properties": {
                 "id": "C13",
                 "name": "Pueblo Family Fun Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pueblo4fun.com/"
             }
         }
@@ -1561,8 +1561,8 @@ var attractionData = {
             "properties": {
                 "id": "C14",
                 "name": "Pueblo Ice Arena",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/328/Pueblo-Ice-Arena"
             }
         }
@@ -1579,8 +1579,8 @@ var attractionData = {
             "properties": {
                 "id": "C15",
                 "name": "Pueblo Zoo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblozoo.org/"
             }
         }
@@ -1597,8 +1597,8 @@ var attractionData = {
             "properties": {
                 "id": "C16",
                 "name": "Skate City",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.skatecitypueblo.com/"
             }
         }
@@ -1615,8 +1615,8 @@ var attractionData = {
             "properties": {
                 "id": "C17",
                 "name": "Steel City Put Glow Golf",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Steelcityputt?fref=ts"
             }
         }
@@ -1633,8 +1633,8 @@ var attractionData = {
             "properties": {
                 "id": "C18",
                 "name": "Pueblo Weisbrod Aircraft Museum",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pwam.org/"
             }
         }
@@ -1651,8 +1651,8 @@ var attractionData = {
             "properties": {
                 "id": "C19",
                 "name": "El Pueblo History Museum",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.historycolorado.org/museums/el-pueblo-history-museum"
             }
         }
@@ -1669,8 +1669,8 @@ var attractionData = {
             "properties": {
                 "id": "C20",
                 "name": "Nature and Raptor Center of Colorado",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://natureandraptor.org/"
             }
         }
@@ -1687,8 +1687,8 @@ var attractionData = {
             "properties": {
                 "id": "C21",
                 "name": "Memorial Hall",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://pueblomemorialhall.com/"
             }
         }
@@ -1705,8 +1705,8 @@ var attractionData = {
             "properties": {
                 "id": "C22",
                 "name": "Sangre de Cristo Arts and Conference Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.sdc-arts.org/"
             }
         }
