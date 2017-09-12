@@ -84,7 +84,7 @@ var adminData = {
                 "name": "General Classroom Building (GCB)",
                 "popupContent": "Three floors, 40,000 square feet, 10 large lecture classrooms, fully-connected to online campus IT systems, wireless throughout building, faculty offices, seminar rooms, two-story atrium, coffee/study lounge, LEED Gold design and construction, sustainable native landscaping.",
                 "imageUrl": "img/GeneralClassroomBuilding.jpg",
-                "linkUrl": "http://library.csupueblo.edu/"
+                "linkUrl": ""
             }
         },
         {
@@ -135,7 +135,7 @@ var adminData = {
                 "name": "Life Sciences Building (LS)",
                 "popupContent": "Discover the wonder of the life sciences in this gorgeous and newly renovated building. Stocked with science labs, a year-round botany lab, the largest lecture hall on campus, and a real gross anatomy cadaver, this building is a place where you really can get a grip on life.",
                 "imageUrl": "img/LifeSciencesBuilding.png",
-                "linkUrl": "https://www.facebook.com/Colorado-State-University-Pueblo-College-of-Science-and-Mathematics-177617855608767/"
+                "linkUrl": ""
             }
         },
         {
@@ -186,7 +186,7 @@ var adminData = {
                 "name": "Technology Building (T)",
                 "popupContent": "Stroll through the halls of the Technology Building and you will find venerable programs like nursing, teacher education, engineering, civil engineering technology and automotive industry management. All of these programs offer exceptional hands-on experience for their students to prepare themselves for successful careers.",
                 "imageUrl": "img/TechnologyBuilding.png",
-                "linkUrl": "http://library.csupueblo.edu/"
+                "linkUrl": ""
             }
         },
         {
@@ -458,7 +458,7 @@ var fieldData = {
                 "name": "Lindberg Garden",
                 "popupContent": "",
                 "imageUrl": "",
-                "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+                "linkUrl": ""
             }
         },
         //Fountain needs a link
@@ -495,7 +495,7 @@ var fieldData = {
                 "name": "McKinney Pavilion",
                 "popupContent": "Forgot to grab breakfast on your way out the door this morning? No problem! Just stop by the Pavilion and pick up a breakfast burrito to get you through the morning. Then, come back for lunch and relax at a table that offers a great view of campus to admire while you munch on pizza or other snack items.",
                 "imageUrl": "img/McKinneyPavilion.png",
-                "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+                "linkUrl": ""
             }
         }
         ,
