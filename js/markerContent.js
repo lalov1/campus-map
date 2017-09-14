@@ -14,8 +14,8 @@ var adminData = {
             "properties": {
                 "id": "B22",
                 "name": "Heating Plant",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.csupueblo.edu/facilities-management/index.html"
             }
         },
@@ -49,7 +49,7 @@ var adminData = {
                 "id": "B24",
                 "name": "Massari Arena (PE)",
                 "popupContent": "Renovated in 2008, this world-class indoor sports arena features a swimming pool, basketball and racquetball courts, an athletic training room, as well as athletic administrative offices and the CSU-Pueblo Athletic Hall of Honor. Come check out the challenging climbing wall to see if you can reach the top!",
-                "imageUrl": "img/Massari-Arena.jpg",
+                "imageUrl": "img/MassariArena.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/massari"
             }
         },
@@ -82,9 +82,9 @@ var adminData = {
             "properties": {
                 "id": "B2",
                 "name": "General Classroom Building (GCB)",
-                "popupContent": "Information here about the General Classroom Building, etc.",
+                "popupContent": "Three floors, 40,000 square feet, 10 large lecture classrooms, fully-connected to online campus IT systems, wireless throughout building, faculty offices, seminar rooms, two-story atrium, coffee/study lounge, LEED Gold design and construction, sustainable native landscaping.",
                 "imageUrl": "img/GeneralClassroomBuilding.jpg",
-                "linkUrl": "http://library.csupueblo.edu/"
+                "linkUrl": ""
             }
         },
         {
@@ -117,7 +117,7 @@ var adminData = {
                 "id": "B4",
                 "name": "Library and Academic Resource Center (LARC)",
                 "popupContent": "Following a $24 million renovation, the University Library reopened in Spring of 2011, with a 22,000-square-foot addition as well as a complete replacementof the mechanical and electrical systems, significant improvements in technology, and a more inviting environment for students. The building was renovated and constructed to the highest possible standards for efficiency and sustainability. The breezeway beneath the library wing was enclosed and now houses a variety of student services from the First-Year Program and Career Center to the President's Leadership Program.",
-                "imageUrl": "img/Library.jpg",
+                "imageUrl": "img/Library.png",
                 "linkUrl": "http://library.csupueblo.edu/"
             }
         },
@@ -135,7 +135,7 @@ var adminData = {
                 "name": "Life Sciences Building (LS)",
                 "popupContent": "Discover the wonder of the life sciences in this gorgeous and newly renovated building. Stocked with science labs, a year-round botany lab, the largest lecture hall on campus, and a real gross anatomy cadaver, this building is a place where you really can get a grip on life.",
                 "imageUrl": "img/LifeSciencesBuilding.png",
-                "linkUrl": "https://www.facebook.com/Colorado-State-University-Pueblo-College-of-Science-and-Mathematics-177617855608767/"
+                "linkUrl": ""
             }
         },
         {
@@ -186,7 +186,7 @@ var adminData = {
                 "name": "Technology Building (T)",
                 "popupContent": "Stroll through the halls of the Technology Building and you will find venerable programs like nursing, teacher education, engineering, civil engineering technology and automotive industry management. All of these programs offer exceptional hands-on experience for their students to prepare themselves for successful careers.",
                 "imageUrl": "img/TechnologyBuilding.png",
-                "linkUrl": "http://library.csupueblo.edu/"
+                "linkUrl": ""
             }
         },
         {
@@ -219,7 +219,7 @@ var adminData = {
                 "id": "B10",
                 "name": "Occhiato University Center (OUC)",
                 "popupContent": "The OUC is bursting at the seams with a tremendous array of student services, including the CSU-Pueblo Bookstore, the Career Center, the offices of the student government and other clubs, two dining facilities, and a stunning ballroom for special events. In the OUC, something is exciting is always happening and YOU can be right in the middle of it!",
-                "imageUrl": "img/OUC.png",
+                "imageUrl": "img/OcchiatoUniversity.png",
                 "linkUrl": "https://www.csupueblo.edu/auxiliary-services/"
             }
         },
@@ -236,7 +236,7 @@ var adminData = {
                 "id": "B11",
                 "name": "Student Recreation Center (SRC)",
                 "popupContent": "After opening its door in Fall 2008, the new 43,000-square-foot Student Recreation Center gives students access to basketball courts, a state-of-the-art weight room, indoor running track, intramural competitions, classes like yoga, kickboxing, and step aerobics, and Outdoor Pursuits programming and equipment rental. Membership is totally free to CSU-Pueblo students!",
-                "imageUrl": "img/rec-center.jpg",
+                "imageUrl": "img/StudentRecCenter.png",
                 "linkUrl": "https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
@@ -269,8 +269,8 @@ var adminData = {
             "properties": {
                 "id": "B13",
                 "name": "Buell Communication Center/KTSC-TV (BCC)",
-                "popupContent": "A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs! The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
-                "imageUrl": "img/VisitorCenterandBuellCommunicationsCenter.png",
+                "popupContent": "A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs!",
+                "imageUrl": "img/VisitorCenterBuellCommCenter.png",
                 "linkUrl": "https://www.csupueblo.edu/mass-communications/labs/ktsc-tv.html"
             }
         },
@@ -286,8 +286,8 @@ var adminData = {
             "properties": {
                 "id": "B14",
                 "name": "Visitor Center",
-                "popupContent": "A real, working public television station is yet another unique and exciting aspect of the CSU-Pueblo campus. In fact, we are the only campus in Colorado to have an actual PBS station on our campus. Here, mass communications students can get excellent hands-on experience in writing, directing, editing, and producing television programs! The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
-                "imageUrl": "img/VisitorCenterandBuellCommunicationsCenter.png",
+                "popupContent": "The Visitor Center greets prospective students, parents, and first-time campus visitors with event and registration information, maps, and campus tours.",
+                "imageUrl": "img/VisitorCenterBuellCommCenter.png",
                 "linkUrl": "https://www.csupueblo.edu/Visitors/"
             }
         },
@@ -321,12 +321,12 @@ var adminData = {
             "properties": {
                 "id": "B42",
                 "name": "Thunder Village",
-                "popupContent": "The Thunder Village Complex is a 10,000 square foot building that was built by Arc Valley Construction and designed by Gary Anzuini. Thunder Village is planned to be filled with vendors and stores where students from campus will spend money. The first tennant will be Thunder Zone Pizza and it will open in June of 2017.",
+                "popupContent": "A 10,000-square-foot, $2.4 million commercial complex located just south of the Neta and Eddie DeRose ThunderBowl. Thunder Village is a commercial development financed and managed by the CSU-Pueblo Foundation that will house three businesses and provide commercial services near the Belmont campus. No donor funds were used in transactions regarding the Thunder Village project. As the property manager, CSU-Pueblo will benefit from the rent collected from the occupants of Thunder Village.",
                 "imageUrl": "img/thunder-village-complex.jpg",
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
         }        ,
-        //needs description
+        
         {
             "type": "Feature",
             "geometry": {
@@ -339,7 +339,7 @@ var adminData = {
             "properties": {
                 "id": "B38",
                 "name": "Fieldhouse (FLDH)",
-                "popupContent": "templateContent",
+                "popupContent": "The Field House houses locker rooms for ThunderWolf football and track and field teams, a weight room, football and track coaches offices, equipment room, training room, meeting rooms, and a multipurpose room for events.",
                 "imageUrl": "img/FieldHouse.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
@@ -358,8 +358,8 @@ var adminData = {
             "properties": {
                 "id": "B39",
                 "name": "Suites",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "The Neta and Eddie DeRose ThunderBowl offers groups and companies the opportunity to cheer on the ThunderWolves in style.  The suite is the perfect place to pamper guests in privacy, comfort and style.  Suites are great for a celebration, to entertain business clients or to treat the family to that special get-together, all while enjoying the excitement of ThunderWolves football!  Costs of the suites range are as little as $1,250 per game, or as little as $5,800 per season, and comes with a $300 catering allownace, a $500 tax deduction, admission tickets, as well as included private bathrooms, wet bat, refrigerator and 42-inch flat-screen televisions with Comcast cable.",
+                "imageUrl": "img/Suites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
@@ -377,8 +377,8 @@ var adminData = {
             "properties": {
                 "id": "B40",
                 "name": "Press Box/Presidential Suite",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "The Neta and Eddie DeRose ThunderBowl offers groups and companies the opportunity to cheer on the ThunderWolves in style.  The suite is the perfect place to pamper guests in privacy, comfort and style.  Suites are great for a celebration, to entertain business clients or to treat the family to that special get-together, all while enjoying the excitement of ThunderWolves football!  Costs of the suites range are as little as $1,250 per game, or as little as $5,800 per season, and comes with a $300 catering allownace, a $500 tax deduction, admission tickets, as well as included private bathrooms, wet bat, refrigerator and 42-inch flat-screen televisions with Comcast cable.",
+                "imageUrl": "img/PressBoxPresSuites.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
             }
         }
@@ -396,11 +396,28 @@ var adminData = {
             "properties": {
                 "id": "B41",
                 "name": "Leomiti Warrior Center (LWC)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
+                "popupContent": "CSU-Pueblo's strength-training facilities are considered amoung the finest in all of Division II. The jewel of the University's strength facilities is the 10,000-square-foot weight training facility at the Neta and Eddie DeRose ThunderBowl, the Leomiti Warrior Center, while the newly ernovated (2015) Massari Arena Weight Room provides additional workout space to serve all of CSU-Pueblo 22 athletic programs.",
+                "imageUrl": "img/LeomitiWarriorCenter.png",
                 "linkUrl": "http://www.gothunderwolves.com/sports/strength/photos/index"
             }
         }
+        //,
+        // {
+        //    "type":"Feature",
+        //    "geometry": {
+        //        "type":"Point",
+        //        "coordinates": [
+
+        //         ]
+        //     },
+        //    "properties": {
+        //        "id":"B0",
+        //        "name":"templateName",
+        //        "popupContent":"templateContent",
+        //        "imageUrl":"img/templateImage.png",
+        //        "linkUrl":"templateUrl"
+        //     }
+        // }
     ]
 };
 
@@ -421,7 +438,7 @@ var fieldData = {
                 "id": "B21",
                 "name": "Student Recreation Field",
                 "popupContent": "Unwind from a long day of studying at the spectacular student recreation field. This 48,000 square foot facility is a wonderful place to throw a football, toss a Frisbee, or kick a soccer ball. In the mood for some competition? Check out the many intramural and club sports that use the field for practice and games.",
-                "imageUrl": "img/StudentRecreationField.png",
+                "imageUrl": "img/StudentRecField.png",
                 "linkUrl": "https://www.csupueblo.edu/student-recreation/index.html"
             }
         },
@@ -439,12 +456,12 @@ var fieldData = {
             "properties": {
                 "id": "B25",
                 "name": "Lindberg Garden",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+                "popupContent": "",
+                "imageUrl": "",
+                "linkUrl": ""
             }
         },
-        //Fountain needs a link and description
+        //Fountain needs a link
         {
             "type": "Feature",
             "geometry": {
@@ -457,13 +474,13 @@ var fieldData = {
             "properties": {
                 "id": "B26",
                 "name": "University Fountain Plaza",
-                "popupContent": "templateContent",
-                "imageUrl": "img/fountain.jpg",
-                "linkUrl": "templateUrl"
+                "popupContent": "Unwind to the peaceful sound of gushing water at the University Fountain Plaza. Admire the bronze casting on the fountain and breathe in the sweet smell of the colorful flowers that surround the plaza during the temperate seasons. Grab your lunch or your favorite textbook and relax in this peaceful atmosphere.",
+                "imageUrl": "img/UniversityFountainPlaza.png",
+                "linkUrl": ""
             }
         }
         ,
-        //needs description
+   
         {
             "type": "Feature",
             "geometry": {
@@ -476,9 +493,9 @@ var fieldData = {
             "properties": {
                 "id": "B27",
                 "name": "McKinney Pavilion",
-                "popupContent": "templateContent",
+                "popupContent": "Forgot to grab breakfast on your way out the door this morning? No problem! Just stop by the Pavilion and pick up a breakfast burrito to get you through the morning. Then, come back for lunch and relax at a table that offers a great view of campus to admire while you munch on pizza or other snack items.",
                 "imageUrl": "img/McKinneyPavilion.png",
-                "linkUrl": "https://www.csupueblo.edu/foundation/recognition/naming-opportunities.html"
+                "linkUrl": ""
             }
         }
         ,
@@ -495,13 +512,13 @@ var fieldData = {
             "properties": {
                 "id": "B28",
                 "name": "Outdoor Classroom",
-                "popupContent": "templateContent",
-                "imageUrl": "img/OutdoorClassroomandRockGarden.png",
-                "linkUrl": "templateUrl"
+                "popupContent": "A learning environment with the benefit of the great outdoors.  The outdoor classroom atmosphere is accompanied by a newly sanded area with a white rock border.",
+                "imageUrl": "img/OutdoorClassroomRockGarden.png",
+                "linkUrl": ""
             }
         }
         ,
-        //needs description and link
+        //needs link
         {
             "type": "Feature",
             "geometry": {
@@ -514,13 +531,13 @@ var fieldData = {
             "properties": {
                 "id": "B29",
                 "name": "Hasan Outdoor Amphitheater",
-                "popupContent": "templateContent",
+                "popupContent": "Bring a friend and settle in to watch a movie beneath the expanse of the unparalleled Colorado sky at the Outdoor Amphitheater. The films are projected onto the side of the nearby Art and Music Building! The amphitheater offers an extensive view of the Colorado mountain ranges.",
                 "imageUrl": "img/HasanOutdoorAmphitheatre.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
-        //needs description and link
+        //needs link
         {
             "type": "Feature",
             "geometry": {
@@ -533,9 +550,9 @@ var fieldData = {
             "properties": {
                 "id": "B30",
                 "name": "Solar Panel Array",
-                "popupContent": "templateContent",
+                "popupContent": "Thanks to an innovative arrangement with Black Hills Energy and BP Solar, CSU-Pueblo is home to a solar panel system on the north edge of campus that provides more than 10 percent of the University’s electricity needs. The 1.2-megawatt solar power system, one of the largest at an educational institution in the nation, will help the university control utility costs as prices and usage increase over time. The solar array covers 4.3 acres with more than 6,800 photovoltaic panels and is capable of generating approximately 1,800 megawatt hours of electricity per year.",
                 "imageUrl": "img/SolarPanelArray.png",
-                "linkUrl": "templateUrl"
+                "linkUrl": ""
             }
         }
         ,
@@ -552,8 +569,8 @@ var fieldData = {
             "properties": {
                 "id": "B31",
                 "name": "Rawlings Softball Complex",
-                "popupContent": "templateContent",
-                "imageUrl": "img/RawlingsOutdoorSportsComplex.png",
+                "popupContent": "The Rawlings Outdoor Sports Complex is a first-class facility that is home to CSU-Pueblo baseball and softball. Take a break and watch one of the many matches that take place on the baseball or softball fields. Bring your friends or family and cheer on the ThunderWolves!",
+                "imageUrl": "img/RawlingsSportsComplex.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
         }
@@ -571,32 +588,30 @@ var fieldData = {
             "properties": {
                 "id": "B32",
                 "name": "Rawlings Field",
-                "popupContent": "templateContent",
-                "imageUrl": "img/RawlingsOutdoorSportsComplex(Quad).png",
+                "popupContent": "The Rawlings Outdoor Sports Complex is a first-class facility that is home to CSU-Pueblo baseball and softball. Take a break and watch one of the many matches that take place on the baseball or softball fields. Bring your friends or family and cheer on the ThunderWolves!",
+                "imageUrl": "img/RawlingsSportsComplex(Quad).png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/rawlings"
             }
         }
         ,
         //needs pic, description
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31003,
-                    -104.57346
-                ]
-            },
-            "properties": {
-                "id": "B33",
-                "name": "Tennis Courts (TC)",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/index"
-            }
-        }
-        ,
-        //needs content
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        //             38.31003,
+        //             -104.57346
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B33",
+        //         "name": "Tennis Courts (TC)",
+        //         "popupContent": "templateContent",
+        //         "imageUrl": "img/templateImage.png",
+        //         "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/index"
+        //     }
+        // },
         {
             "type": "Feature",
             "geometry": {
@@ -609,9 +624,9 @@ var fieldData = {
             "properties": {
                 "id": "B34",
                 "name": "Ropes Course (RC)",
-                "popupContent": "templateContent",
+                "popupContent": "Come build your leadership, teamwork, and communication skills at the inspiring and challenging CSU-Pueblo Ropes course. In a controlled environment, learn about how individual contributions can benefit a team and how these newfound skills can be applied to your own life. Take the challenge and discover all kinds of new things about yourself and your teammates!",
                 "imageUrl": "img/RopesCourse.png",
-                "linkUrl": "https://www.csupueblo.edu/student-engagement-and-leadership/contact-us/index.html"
+                "linkUrl": "https://www.csupueblo.edu/student-recreation/outdoor-pursuits/challenge-course/index.html"
             }
         }
         ,
@@ -628,9 +643,9 @@ var fieldData = {
             "properties": {
                 "id": "B35",
                 "name": "Weindling Park",
-                "popupContent": "templateContent",
-                "imageUrl": "img/templateImage.png",
-                "linkUrl": "templateUrl"
+                "popupContent": "",
+                "imageUrl": "",
+                "linkUrl": ""
             }
         }
         ,
@@ -648,7 +663,7 @@ var fieldData = {
                 "id": "B36",
                 "name": "Art and Lorraine Gonzales Stadium",
                 "popupContent": "The existing soccer complex has been enhanced through private dollars with a new synthetic turf field, 550-seat grandstand, public restrooms, a concession area, press box, lobby, locker rooms, training room, and offices.",
-                "imageUrl": "img/templateImage.png",
+                "imageUrl": "img/ArtLorraineGonzalesStadium.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/soccer-lax"
             }
         }
@@ -666,9 +681,63 @@ var fieldData = {
             "properties": {
                 "id": "B37",
                 "name": "DeRose Thunderbowl Stadium",
-                "popupContent": "templateContent",
-                "imageUrl": "img/ThunderbowlStadium.png.png",
+                "popupContent": "The Neta & Eddie DeRose Thunderbowl Stadium is a world-class facility that is without equal in the NCAA Division II. Featuring 7,000 spectator seats, a nine lane all-weather track, a field house, and more, the Thunderbowl Stadium is something the CSU-Pueblo community is truly proud to have. Come cheer on the Thunderwolf football team and women’s track and field team as they journey through exciting seasons!",
+                "imageUrl": "img/ThunderbowlStadium.png",
                 "linkUrl": "http://www.gothunderwolves.com/athletics/recruits/facilities/thunderbowl"
+            }
+        }
+        ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.31168,
+                    -104.57673
+                ]
+            },
+           "properties": {
+               "id":"B43",
+               "name":"Water Towers",
+               "popupContent":"These towers are owned by the Pueblo Board of Waterworks municipal domestic water provider for the City of Pueblo and serve the CSU-Pueblo campus as well as the surrounding northeast part of the city.",
+               "imageUrl":"img/WaterTowers.png",
+               "linkUrl":""
+            }
+        }
+         ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.30502,
+                    -104.57542
+                ]
+            },
+           "properties": {
+               "id":"B44",
+               "name":"Howling Wolf Statue",
+               "popupContent":"This howling wolf statue, nicknamed King of the Hill, stands as a guardian over the campus from its perch on a knoll on the east side of campus. Students purchased and gifted to the University the cast aluminum life-sized wolf in 2008 to further establish the University’s identity as ThunderWolves.",
+               "imageUrl":"img/HowlingWolfStatue.png",
+               "linkUrl":""
+            }
+        }
+        ,
+        {
+           "type":"Feature",
+           "geometry": {
+               "type":"Point",
+               "coordinates": [
+                    38.30804,
+                    -104.57775
+                ]
+            },
+           "properties": {
+               "id":"B45",
+               "name":"Wolf Statue",
+               "popupContent":"Students commemorated the University’s name change from University of Southern Colorado to Colorado State University-Pueblo with a 2004 donation of a 40-inch high, 140-pound bronzed wolf statue by sculptor Brenda Daniher mounted on a rock southeast of the Fountain Plaza area on campus.",
+               "imageUrl":"img/WolfStatue.png",
+               "linkUrl":""
             }
         }
         // ,
@@ -712,23 +781,23 @@ var resData = {
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    38.31078,
-                    -104.57925
-                ]
-            },
-            "properties": {
-                "id": "B16",
-                "name": "Belmont Residence Hall (BRH)",
-                "popupContent": "Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
-                "imageUrl": "img/BelmontResidenceHall.png",
-                "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
-            }
-        },
+        // {
+        //     "type": "Feature",
+        //     "geometry": {
+        //         "type": "Point",
+        //         "coordinates": [
+        //             38.31078,
+        //             -104.57925
+        //         ]
+        //     },
+        //     "properties": {
+        //         "id": "B16",
+        //         "name": "Belmont Residence Hall (BRH)",
+        //         "popupContent": "Home for many CSU-Pueblo students is our Belmont Hall. Students enjoy such amenities as a 24-hour computer lab, laundry facilities, a fitness room, and round-the-clock staff and security. Every room is comfortably furnished with free phone service, cable TV service, and internet service. Life is good in the Belmont Hall!",
+        //         "imageUrl": "img/BelmontResidenceHall.png",
+        //         "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
+        //     }
+        // },
         {
             "type": "Feature",
             "geometry": {
@@ -759,7 +828,7 @@ var resData = {
                 "id": "B18",
                 "name": "Culebra Hall (CLBR)",
                 "popupContent": "The nearly 80,000 square-feet Culebra Hall has  four floors of student rooms, totaling 235 beds, a commons/lounge area with adjacent small group study rooms, laundry, mailroom and a late-night food venue offering coffee, drinks, soups, snacks, sandwiches, and pizza.",
-                "imageUrl": "img/culebraHall.jpg",
+                "imageUrl": "img/CulebraHall.png",
                 "linkUrl": "https://www.csupueblo.edu/residence-life-and-housing/index.html"
             }
         },
@@ -816,8 +885,8 @@ var hotelData = {
             "properties": {
                 "id": "C1",
                 "name": "Pueblo Airport (Hertz)",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.hertz247.co.uk/bq/en-gb/Home"
             }
         }
@@ -834,8 +903,8 @@ var hotelData = {
             "properties": {
                 "id": "C2",
                 "name": "Avis Rent A Car",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.avis.com/en/home"
             }
         }
@@ -852,8 +921,8 @@ var hotelData = {
             "properties": {
                 "id": "C3",
                 "name": "Enterprise Rent-A-Car",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.enterprise.com/en/car-rental/locations/us/co.html?gclid=CjwKEAiA3NTFBRDKheuO6IG43VQSJAA74F77El27NhLmjtH_phJqzUTfMdxW-rQo9zzB7VK0ME87AhoC5FLw_wcB&cm_mmc=Google-_-Brand-_-E_G_US_SE_Geo_B_BMM_NTL_EN_US-_-enterprise_co&s_kwcid=AL!4824!3!169909537661!b!!g!!%2Benterprise%20%2Bco&ef_id=WJESMAAAAM26Ahks:20170228223244:s"
             }
         }
@@ -870,8 +939,8 @@ var hotelData = {
             "properties": {
                 "id": "C4",
                 "name": "Shuttle Service of Southern Colorado",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www1.shuttleserviceofsoutherncolorado.com/?kw="
             }
         }
@@ -888,8 +957,8 @@ var hotelData = {
             "properties": {
                 "id": "C23",
                 "name": "Ramada Inn",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.wyndhamhotels.com/ramada/pueblo-colorado/ramada-pueblo/overview?CID=LC:RA:20160927:RIO:Local:SM-ramotn"
             }
         }
@@ -906,8 +975,8 @@ var hotelData = {
             "properties": {
                 "id": "C24",
                 "name": "La Quinta Inn and Suites",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.laquintapueblo.com/?cid=local_google_972"
             }
         }
@@ -924,8 +993,8 @@ var hotelData = {
             "properties": {
                 "id": "C25",
                 "name": "Courtyard by Marriott",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.marriott.com/hotels/travel/pubcy-courtyard-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
@@ -942,8 +1011,8 @@ var hotelData = {
             "properties": {
                 "id": "C26",
                 "name": "Holiday Inn Express & Suites",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/pueblo/pbchi/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-USA-_-PBCHI"
             }
         }
@@ -960,8 +1029,8 @@ var hotelData = {
             "properties": {
                 "id": "C28",
                 "name": "Wingate by Windham",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.wyndhamhotels.com/wingate/pueblo-colorado/wingate-by-wyndham-pueblo/overview?CID=LC:WG:20160927:RIO:Local:SM-wgmotn"
             }
         }
@@ -978,8 +1047,8 @@ var hotelData = {
             "properties": {
                 "id": "C29",
                 "name": "SpringHill Suites by Marriott",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.marriott.com/hotels/travel/pubsh-springhill-suites-pueblo-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
             }
         }
@@ -1020,8 +1089,8 @@ var restaurantData = {
             "properties": {
                 "id": "C33",
                 "name": "Andy Mac's Sports Grill",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/andymacspueblo/"
             }
         }
@@ -1038,8 +1107,8 @@ var restaurantData = {
             "properties": {
                 "id": "C34",
                 "name": "Angelo's Pizza Parlor",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.angelospizzapie.com/"
             }
         }
@@ -1056,8 +1125,8 @@ var restaurantData = {
             "properties": {
                 "id": "C35",
                 "name": "Do Drop Inn Pizza",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.dodropinnpueblo.com/"
             }
         }
@@ -1074,8 +1143,8 @@ var restaurantData = {
             "properties": {
                 "id": "C36",
                 "name": "Gold Dust Saloon",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://golddustsaloon.net/"
             }
         }
@@ -1092,8 +1161,8 @@ var restaurantData = {
             "properties": {
                 "id": "C37",
                 "name": "Pass Key",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.passkeyrestaurant.com/"
             }
         }
@@ -1110,8 +1179,8 @@ var restaurantData = {
             "properties": {
                 "id": "C38",
                 "name": "MoMo Japanese Restaurant",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/MomoJapaneseRestaurant/"
             }
         }
@@ -1128,8 +1197,8 @@ var restaurantData = {
             "properties": {
                 "id": "C39",
                 "name": "Cactus Flower",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://cactusflowerrestaurant.com/"
             }
         }
@@ -1146,8 +1215,8 @@ var restaurantData = {
             "properties": {
                 "id": "C40",
                 "name": "Mill Stop Cafe",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Mill-Stop-321963661315040/?rf=108134245895340"
             }
         }
@@ -1164,8 +1233,8 @@ var restaurantData = {
             "properties": {
                 "id": "C41",
                 "name": "Papa Jose's Union Ave Cafe",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Papajoses/"
             }
         }
@@ -1182,8 +1251,8 @@ var restaurantData = {
             "properties": {
                 "id": "C42",
                 "name": "Manhattan's Pizza Parlor",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Manhattans-Pizza-Parlor-and-More-121400501218936/"
             }
         }
@@ -1200,9 +1269,9 @@ var restaurantData = {
             "properties": {
                 "id": "C43",
                 "name": "Wonderful Bistro",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
-                "linkUrl": ""
+                "popupContent": "",
+                "imageUrl": "",
+                "linkUrl": "http://wonderfulbistrochinesecuisine.com/"
             }
         }
         // ,
@@ -1240,8 +1309,8 @@ var attractionData = {
             "properties": {
                 "id": "C44",
                 "name": "Eagleridge Shopping Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": ""
             }
         }
@@ -1258,8 +1327,8 @@ var attractionData = {
             "properties": {
                 "id": "C45",
                 "name": "Pueblo Mall",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pueblomall.com/"
             }
         }
@@ -1276,8 +1345,8 @@ var attractionData = {
             "properties": {
                 "id": "C30",
                 "name": "Riverwalk",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://puebloriverwalk.org/"
             }
         }
@@ -1294,8 +1363,8 @@ var attractionData = {
             "properties": {
                 "id": "C31",
                 "name": "Bishop's Castle",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.bishopcastle.org/"
             }
         }
@@ -1312,8 +1381,8 @@ var attractionData = {
             "properties": {
                 "id": "C32",
                 "name": "Lake Pueblo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://cpw.state.co.us/placestogo/parks/LakePueblo"
             }
         }
@@ -1330,8 +1399,8 @@ var attractionData = {
             "properties": {
                 "id": "C5",
                 "name": "Cinemark Tinseltown - Pueblo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.cinemark.com/colorado/cinemark-tinseltown"
             }
         }
@@ -1348,8 +1417,8 @@ var attractionData = {
             "properties": {
                 "id": "C6",
                 "name": "Mesa Drive In",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.mesadrive-in.com/"
             }
         }
@@ -1366,8 +1435,8 @@ var attractionData = {
             "properties": {
                 "id": "C7",
                 "name": "Big Daddy's Sunset Bowl",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/BigDaddysSunsetBowl/"
             }
         }
@@ -1384,8 +1453,8 @@ var attractionData = {
             "properties": {
                 "id": "C8",
                 "name": "Bowlero Lanes",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/pages/Bowlero-Lanes/321515781221652"
             }
         }
@@ -1402,8 +1471,8 @@ var attractionData = {
             "properties": {
                 "id": "C9",
                 "name": "El Centro del Quinto Sol Skate Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/334/El-Centro"
             }
         }
@@ -1420,8 +1489,8 @@ var attractionData = {
             "properties": {
                 "id": "C10",
                 "name": "Epic Entertainment",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.epicentertainmentco.com/"
             }
         }
@@ -1438,8 +1507,8 @@ var attractionData = {
             "properties": {
                 "id": "C11",
                 "name": "Pueblo City Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/facilities/facility/details/9"
             }
         }
@@ -1456,8 +1525,8 @@ var attractionData = {
             "properties": {
                 "id": "C12",
                 "name": "Mineral Palace Park",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/Facilities/Facility/Details/Mineral-Palace-Park-36"
             }
         }
@@ -1474,8 +1543,8 @@ var attractionData = {
             "properties": {
                 "id": "C13",
                 "name": "Pueblo Family Fun Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pueblo4fun.com/"
             }
         }
@@ -1492,8 +1561,8 @@ var attractionData = {
             "properties": {
                 "id": "C14",
                 "name": "Pueblo Ice Arena",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblo.us/328/Pueblo-Ice-Arena"
             }
         }
@@ -1510,8 +1579,8 @@ var attractionData = {
             "properties": {
                 "id": "C15",
                 "name": "Pueblo Zoo",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.pueblozoo.org/"
             }
         }
@@ -1528,8 +1597,8 @@ var attractionData = {
             "properties": {
                 "id": "C16",
                 "name": "Skate City",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.skatecitypueblo.com/"
             }
         }
@@ -1546,8 +1615,8 @@ var attractionData = {
             "properties": {
                 "id": "C17",
                 "name": "Steel City Put Glow Golf",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.facebook.com/Steelcityputt?fref=ts"
             }
         }
@@ -1564,8 +1633,8 @@ var attractionData = {
             "properties": {
                 "id": "C18",
                 "name": "Pueblo Weisbrod Aircraft Museum",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.pwam.org/"
             }
         }
@@ -1582,8 +1651,8 @@ var attractionData = {
             "properties": {
                 "id": "C19",
                 "name": "El Pueblo History Museum",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://www.historycolorado.org/museums/el-pueblo-history-museum"
             }
         }
@@ -1600,8 +1669,8 @@ var attractionData = {
             "properties": {
                 "id": "C20",
                 "name": "Nature and Raptor Center of Colorado",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://natureandraptor.org/"
             }
         }
@@ -1618,8 +1687,8 @@ var attractionData = {
             "properties": {
                 "id": "C21",
                 "name": "Memorial Hall",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "http://pueblomemorialhall.com/"
             }
         }
@@ -1636,8 +1705,8 @@ var attractionData = {
             "properties": {
                 "id": "C22",
                 "name": "Sangre de Cristo Arts and Conference Center",
-                "popupContent": "template Content",
-                "imageUrl": "img/template.png",
+                "popupContent": "",
+                "imageUrl": "",
                 "linkUrl": "https://www.sdc-arts.org/"
             }
         }
