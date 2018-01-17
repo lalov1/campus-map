@@ -217,8 +217,8 @@ var adminData = {
             },
             "properties": {
                 "id": "B10",
-                "name": "Occhiato University Center (OUC)",
-                "popupContent": "The OUC is bursting at the seams with a tremendous array of student services, including the CSU-Pueblo Bookstore, the Career Center, the offices of the student government and other clubs, two dining facilities, and a stunning ballroom for special events. In the OUC, something is exciting is always happening and YOU can be right in the middle of it!",
+                "name": "Occhiato Student Center (OSC)",
+                "popupContent": "In October of 2015, the University broke ground on the renovation and expansion to the original 109,000-square-foot facility built in 1974. The building now is an open, dynamic, technologically-modern facility with residential dining and retail functions, study lounges, and state-of-the-art conference rooms. The renovation separated the student-use areas from the public areas available for public and private events. In keeping with the University’s commitment to sustainability, the renovated building was constructed to a minimum of LEED (Leadership in Energy and Environmental Design) Gold Standard.",
                 "imageUrl": "img/OcchiatoUniversity.png",
                 "linkUrl": "https://www.csupueblo.edu/auxiliary-services/"
             }
