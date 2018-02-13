@@ -322,7 +322,7 @@ var adminData = {
                 "id": "B42",
                 "name": "Thunder Village",
                 "popupContent": "A 10,000-square-foot, $2.4 million commercial complex located just south of the Neta and Eddie DeRose ThunderBowl. Thunder Village is a commercial development financed and managed by the CSU-Pueblo Foundation that will house three businesses and provide commercial services near the Belmont campus. No donor funds were used in transactions regarding the Thunder Village project. As the property manager, CSU-Pueblo will benefit from the rent collected from the occupants of Thunder Village.",
-                "imageUrl": "img/thunder-village-complex.jpg",
+                "imageUrl": "img/thunder-village.jpg",
                 "linkUrl": "https://www.csupueblo.edu/news/2017/02-03-thunder-village-groundbreaking.html"
             }
         }        ,
